@@ -1,39 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      background: transparent;
-      overflow: hidden;
-    }
-    iframe {
-      border: none;
-      width: 100vw;
-      height: 100vh;
-      background: transparent;
-    }
-    yt-live-chat-renderer {
-      background: transparent !important;
-    }
-    yt-live-chat-text-message-renderer {
-      background-color: rgba(0, 0, 0, 0.35) !important;
-      border-radius: 8px;
-      margin: 2px 0;
-      padding: 2px 4px;
-    }
-    yt-live-chat-author-chip {
-      color: #00ffff !important;
-      font-weight: bold;
-    }
-  </style>
-</head>
-<body>
-  <iframe 
-    src="https://www.youtube.com/live_chat?v=9W-fncmAGY8&embed_domain=youtube.com"
-    allowtransparency="true"
-  ></iframe>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>YT Chat Overlay</title>
+    <style>
+      body {
+        margin: 0;
+        background: transparent;
+        overflow: hidden;
+      }
+      iframe {
+        width: 100vw;
+        height: 100vh;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe
+      src="https://www.youtube.com/live_chat?v=9W-fncmAGY8&embed_domain=cliplucchese.github.io"
+      allowfullscreen>
+    </iframe>
+  </body>
 </html>
